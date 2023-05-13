@@ -1,0 +1,72 @@
+//Mixin para media query
+    
+@mixin telefono {
+    @media(min-width: $telefono){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(min-width: $tablet){
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: $desktop){
+        @content;
+    }
+}
+
+@mixin desktopXL {
+    @media(min-width: $desktopXL){
+        @content;
+    }
+}
+
+/*====> MEDIA QUERIES <====*/
+
+@media screen and (max-width: 1000px) {
+    .clace1{
+        width: 350px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+
+    .foto1{
+        width: 95%;
+    }
+
+    .izquierda{
+        width: 95%;
+    }
+ 
+    .nos2{
+    width: 95%;
+    }
+    .apoyo1{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .titulo{
+        font-size: 35px;
+    }
+ 
+    .foto1{
+        width: 95%;
+    }
+    .izquierda{
+        width: 95%;
+    }
+   
+    .nos2{
+    width: 95%;
+    }
+    .apoyo1 {
+    width: 350px;
+
+    }
+}

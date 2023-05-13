@@ -1,0 +1,24 @@
+*{
+    margin: 7px;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+    background-color: rgb(254, 250, 224);
+}
+.contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin:0 auto;
+}
